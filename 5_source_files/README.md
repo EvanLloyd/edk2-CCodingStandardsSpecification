@@ -33,9 +33,9 @@
 
 ## 5.1 General Rules
 
-### 5.1.1 Lines shall be 120 columns, or less
+### 5.1.1 Lines shall be 120 columns, or fewer
 
-Preferably, limit line lengths to 80 columns or less. When this doesn't leave
+Preferably, limit line lengths to 80 columns or fewer. When this doesn't leave
 sufficient space for a good postfix style comment, extend the line to a total
 of 120 columns. Having some level of uniformity in the expected width of the
 source is useful for viewing and printing the code.
@@ -79,9 +79,9 @@ Other than '\0', the only permissible escape sequences are:
 
 ### 5.1.5 Octal constants (Base 8) shall not be used.
 
-The C language specification has defined numbers whose first digit is zero as
-octal, so 010 is decimal 8 The use of octal has declined considerably since C
-was first defined but this construct remains for backwards compatibility. Its
+The C language specification defines numbers whose first digit is zero as
+octal, so 010 is decimal 8. The use of octal has declined considerably since C
+was first defined, but this construct remains for backwards compatibility. Its
 use is prohibited. In particular, do not be tempted to use the zero prefix in
 tables of numbers to ensure visual alignment:
 
@@ -107,16 +107,16 @@ Trigraphs are a construct to allow character representations that do not
 support all ASCII characters to enter the equivalent of the ASCII character.
 Trigraphs are three characters long (hence the "tri"). The first two characters
 are "??" while the third character disambiguates the trigraph. Technically
-therefore, a[5] could be written a??(5??). Trigraphs have provided both
+therefore, a[5] could be written a??(5??). Trigraphs have proven both
 confusing and unnecessary and are prohibited.
 
 ### 5.1.9 In-line assembler shall not be used
 
 There are really no reasons for in-line assembler to be used in EDK II code.
 The only exceptions in this case are largely associated with the lowest level
-Architectural Protocols. Using in-line assembly language deviates against the
-Scope rules defined in Section 1.3 "Scope" because it is an extension to
-standard C. This.
+Architectural Protocols. Using in-line assembly language deviates from the
+Scope rules defined in Section 1.3 "Scope", because it is an extension to
+standard C.
 
 ### 5.1.10 Do not use #pragma, except for #pragma pack (#).
 

@@ -249,7 +249,7 @@ And the comment will end with:
 **/
 ```
 
-The File Heading comment block is comprised of the following sections: File
+The File Heading comment block comprises the following sections: File
 Description, Copyright, License, and the optional Specification Reference and
 Glossary sections.
 
@@ -266,8 +266,9 @@ Glossary sections.
 **/
 ```
 
-The following example begins each body line with a tab (two spaces). This is
-the preferred indentation, but two tabs (four spaces) is also acceptable.
+The following example begins each body line with an indent (two spaces).
+This is the preferred indentation, but a double indent (four spaces) is also
+acceptable.
 
 #### Example
 
@@ -278,7 +279,7 @@ the preferred indentation, but two tabs (four spaces) is also acceptable.
   Detailed description of the file’s contents and other useful
   information for a person viewing the file for the first time.
 
-  Copyright (C) --20XX, Acme Corporation. All rights reserved.<BR>
+  Copyright (C) 20XX, Acme Corporation. All rights reserved.<BR>
   This program and the accompanying materials
   are licensed and made available under the terms and conditions of
   the BSD License which accompanies this distribution. The full
